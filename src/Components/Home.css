@@ -1,0 +1,108 @@
+/* Home.css */
+.App {
+  background-color: #25282c;
+  padding: 10px 40px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  min-height: 150vh;
+  height: auto;
+}
+.App h1{
+  font-size: 22px;
+  color: white;
+}
+select {
+  padding: 11px;
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-size: 17px;
+    margin-top: 13px;
+    width: 300px;
+}
+/* Table */
+.table_container {
+  display: flex;
+  overflow-x: auto;
+  border: 1px solid #ddd; /* Add border around the entire table */
+  margin: 15px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table_container th{
+  padding: 8px;
+  text-align: center;
+  background-color: #ddd;
+  font-size: 16px;
+  font-weight: 600;
+}
+.table_container td {
+  border-top: 2px solid #212529;
+  border-bottom: 2px solid #212529; /* Add bottom border to each cell */
+  padding: 8px;
+  text-align: center;
+  background-color: #ddd;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.table_container th {
+  background-color: #212529;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+.table_container tr td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.table_container tr td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.table_container tr td:not(:first-child):not(:last-child) {
+  border-left: none;
+  border-right: none;
+}
+.input-container {
+  position: relative;
+}
+input{
+  border: 1px solid #212529;
+  padding: 11px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  
+}
+.sign{
+  color: #212529;
+  font-size:22px
+}
+.sign:hover{
+  transform: translateY(-3px);
+}
+.scenariosimulation{
+  height: 50vh;
+  background-color: #212529;
+  width: 100%;
+}
+.dropdown{
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    color: white;
+    font-size: 17px;
+}
